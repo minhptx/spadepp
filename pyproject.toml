@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "spadepp"
+version = "0.1.0"
+description = ""
+authors = ["Minh Pham"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+loguru = "^0.6.0"
+click = "^8.0.4"
+pandas = "^1.4.1"
+scikit-activeml = "^0.1.1"
+numpy = "^1.22.2"
+scikit-learn = "^1.0.2"
+nltk = "^3.7"
+torchtext = "^0.11.2"
+pyspellchecker = "^0.6.3"
+setuptools = "*"
+sentence-transformers = "^2.2.0"
+spacy = "^3.2.2"
+tabulate = "^0.8.9"
+transformers = "^4.16.2"
+datasets = "^1.18.3"
+accelerate = "^0.5.1"
+xgboost = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

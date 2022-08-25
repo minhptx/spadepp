@@ -1,0 +1,8 @@
+data/
+reports/
+.venv
+logs/
+debug/
+.vector_cache/
+dist/
+**/__pycache__/**
